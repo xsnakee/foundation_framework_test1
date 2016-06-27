@@ -1,0 +1,50 @@
+body {
+    background-color: #eee;
+    font-family: Exo, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+#header {
+    text-align: center;
+    background: url(../images/mountains_bg.jpg);
+    padding-top: 225px;
+    padding-bottom: 229px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 75px;
+    margin: 0;
+    margin-bottom: 43px;
+}
+
+#header a {
+    display: inline-block;
+    margin-bottom: 39px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#header a:nth-child(4) {
+    text-transform: uppercase;
+    background-color: #ff6d6d;
+    border-radius: 3px;
+    padding: 20px 50px;
+    margin-bottom: 19px;
+}
+
+#header a.play {
+    width: 59px;
+    padding: 19px 23px;
+    background-color: #323969;
+    border-radius: 50%;
+}
+
+#header .column>div {
+    color: rgba(40, 40, 40, 0.6);
+    font-size: 14px;
+}
+
+#sec-2 {}
