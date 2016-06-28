@@ -184,3 +184,39 @@ p {
 #sec-4 img {
     width: 100%;
 }
+
+#sec-5 {
+    background: url(../images/sec-5_abstract_bg.png) center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#sec-5 .columns>div {
+    width: 76px;
+    height: 76px;
+    background-color: #4e4e5e;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+#sec-5 h6 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 26px;
+}
+
+#sec-5 h5 {
+    font-size: 16px;
+}
+
+#sec-5 p {
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+#sec-5 div.column {
+    text-align: justify;
+    text-align-last: justify;
+    margin-bottom: 90px;
+}
