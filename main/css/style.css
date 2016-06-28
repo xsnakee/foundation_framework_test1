@@ -1,5 +1,5 @@
 body {
-    background-color: #eee;
+    background-color: #f6f5f3;
     font-family: Exo, sans-serif;
     font-size: 16px;
     margin: 0;
@@ -219,4 +219,15 @@ p {
     text-align: justify;
     text-align-last: justify;
     margin-bottom: 90px;
+}
+
+#sec-6 {
+    padding-top: 108px;
+    padding-bottom: 468px;
+    background: url(../images/mac_window.png) center bottom no-repeat;
+}
+
+#sec-6 .row {
+    max-width: 700px;
+    text-align: center;
 }
