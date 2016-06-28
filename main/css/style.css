@@ -1,8 +1,9 @@
 body {
-    background-color: #eee;
+    background-color: #f6f5f3;
     font-family: Exo, sans-serif;
     font-size: 16px;
     margin: 0;
+    overflow-x: hidden;
 }
 
 #header {
@@ -48,11 +49,6 @@ h1 {
     font-size: 14px;
 }
 
-#sec-2>.row {
-    background-color: #fff;
-    overflow: hidden;
-}
-
 h5 {
     font-size: 16px;
     font-weight: 500;
@@ -81,23 +77,33 @@ p {
     padding: 0;
 }
 
-#sec-2>.row>.columns:first-child {
-    padding: 191px 150px 116px 150px;
+#sec-2 {
+    position: relative;
+    background-color: #fff;
+}
+
+#sec-2>.row>.columns {
+    margin: 0;
+    padding-top: 191px;
+    padding-bottom: 126px;
     box-sizing: border-box;
     position: relative;
     z-index: 3;
 }
 
-#sec-2>.row>.columns:last-child {
-    padding: 0;
+#style_block {
+    width: 30%;
     height: 710px;
+    position: absolute;
+    right: 0px;
+    overflow: hidden;
 }
 
 #gray_block {
     background-color: #eee;
     transform: skewy(-45deg);
     height: 1200px;
-    margin-top: -715px;
+    margin-top: -693px;
     z-index: 1;
 }
 
@@ -172,6 +178,10 @@ p {
     z-index: 2;
 }
 
+#sec-4 {
+    background-color: #fff;
+}
+
 #sec-4>.row {
     position: relative;
     z-index: 3;
@@ -219,4 +229,172 @@ p {
     text-align: justify;
     text-align-last: justify;
     margin-bottom: 90px;
+}
+
+#sec-6 {
+    padding-top: 108px;
+    padding-bottom: 468px;
+    background: url(../images/mac_window.png) center bottom no-repeat;
+}
+
+#sec-6 .row {
+    max-width: 700px;
+    text-align: center;
+}
+
+#sec-7 {
+    padding-top: 98px;
+    padding-bottom: 85px;
+    background-color: #323969;
+}
+
+#sec-7>.row {
+    text-align: center;
+    color: rgba(246, 245, 243, 0.6);
+}
+
+#sec-7 h2 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+#sec-7 .large-3 {
+    position: relative;
+    margin-top: 96px;
+    margin-bottom: 52px;
+}
+
+#sec-7 input {
+    width: 100%;
+}
+
+.input_area {
+    background-color: rgba(246, 245, 243, 0.2);
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #fff;
+    border-color: #ffffff;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    padding: 0;
+    margin: 0 auto;
+    padding-left: 30px;
+    height: 47px;
+}
+
+.input_area:focus {
+    background-color: rgba(246, 245, 243, 0.2);
+    border: none;
+}
+
+#sec-7 [type=submit] {
+    background-color: #ff6d6d;
+    height: 47px;
+    color: #f6f5f3;
+    border: none;
+}
+
+#free_trial {
+    position: absolute;
+    top: -50px;
+    color: #f6f5f3;
+}
+
+#free_trial img {
+    float: left;
+    margin-right: -20px;
+}
+
+#footer {
+    padding: 0 20px;
+    padding-top: 82px;
+    padding-bottom: 70px;
+    background-color: #fff;
+}
+
+#footer h4 {
+    font-size: 24px;
+    padding: 7px 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    text-align: left;
+}
+
+#footer h4>span {
+    color: #ffffff;
+}
+
+#footer .large-3:first-child>div {
+    background: url(../images/Polygon-1.png) no-repeat 53px;
+}
+
+#footer>.row>.columns {
+    margin-bottom: 30px;
+}
+
+#footer .large-3:first-child p {
+    font-size: 13.8px;
+}
+
+#footer p {
+    font-size: 14px;
+    color: rgba(40, 40, 40, 0.56);
+}
+
+#footer a {
+    display: block;
+    margin: 5px 0;
+    color: rgba(40, 40, 40, 0.66);
+    transition: 200ms;
+    font-size: 14px;
+}
+
+#footer a:hover {
+    color: #000;
+}
+
+#footer .large-3 {
+    float: left;
+}
+
+#footer .large-3:last-child {
+    text-align: center;
+}
+
+#footer .large-3:last-child a {
+    display: inline;
+    font-size: 1.3em;
+    margin: 0 15px;
+    color: #c9c9c9;
+}
+
+#footer .large-3:last-child a:hover {
+    color: #000;
+}
+
+#footer .large-3:last-child .columns {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+#footer .large-3:last-child input {
+    margin: 0;
+    padding-left: 30px;
+    color: #000;
+    box-sizing: border-box;
+    background-color: #eee;
+    height: 50px;
+    border-radius: 3px;
+}
+
+#footer .large-3:last-child button {
+    width: 50px;
+    height: 50px;
+    background-color: #ff6d6d;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: -3px;
 }
