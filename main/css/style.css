@@ -8,6 +8,7 @@ body {
 #header {
     text-align: center;
     background: url(../images/mountains_bg.jpg);
+    background-size: cover;
     padding-top: 225px;
     padding-bottom: 229px;
 }
@@ -47,4 +48,175 @@ h1 {
     font-size: 14px;
 }
 
-#sec-2 {}
+#sec-2>.row {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff6d6d;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #282828;
+    margin: 0;
+    margin-bottom: 45px;
+    line-height: 50px;
+}
+
+h2>span {
+    color: #ff6d6d;
+}
+
+p {
+    color: rgba(40, 40, 40, 0.66);
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+#sec-2>.row>.columns:first-child {
+    padding: 191px 150px 116px 150px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 3;
+}
+
+#sec-2>.row>.columns:last-child {
+    padding: 0;
+    height: 710px;
+}
+
+#gray_block {
+    background-color: #eee;
+    transform: skewy(-45deg);
+    height: 1200px;
+    margin-top: -715px;
+    z-index: 1;
+}
+
+#red_block {
+    background-color: rgba(255, 109, 109, 0.8);
+    transform: skewy(-45deg);
+    height: 1200px;
+    z-index: 1;
+}
+
+#sec-3 {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding-top: 138px;
+    padding-bottom: 184px;
+    background-color: #f6f5f3;
+}
+
+#sec-3>.row>img {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+}
+
+#sec-3>.row>img:nth-child(1) {
+    top: 0;
+    left: 82px;
+}
+
+#sec-3>.row>img:nth-child(2) {
+    top: 0;
+    right: 140px;
+}
+
+#sec-3>.row>img:nth-child(3) {
+    bottom: 0;
+    right: 62px;
+}
+
+#sec-3 .column {
+    position: relative;
+    z-index: 3;
+}
+
+#sec-3 .columns h6 {
+    font-weight: 500;
+    font-size: 22px;
+    color: #282828;
+    margin-top: 30px;
+}
+
+#sec-3 .columns p {
+    margin-top: 20px;
+}
+
+#sec-4 {
+    padding-top: 93px;
+    padding-bottom: 90px;
+    overflow: hidden;
+    position: relative
+}
+
+#red_block2 {
+    position: absolute;
+    top: -20px;
+    left: -700px;
+    height: 1553px;
+    width: 1500px;
+    transform: skewY(45deg);
+    background-color: #ff6d6d;
+    z-index: 2;
+}
+
+#sec-4>.row {
+    position: relative;
+    z-index: 3;
+}
+
+#sec-4 .medium-7 {
+    margin-left: -100px;
+}
+
+#sec-4 img {
+    width: 100%;
+}
+
+#sec-5 {
+    background: url(../images/sec-5_abstract_bg.png) center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#sec-5 .columns>div {
+    width: 76px;
+    height: 76px;
+    background-color: #4e4e5e;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+#sec-5 h6 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 26px;
+}
+
+#sec-5 h5 {
+    font-size: 16px;
+}
+
+#sec-5 p {
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+#sec-5 div.column {
+    text-align: justify;
+    text-align-last: justify;
+    margin-bottom: 90px;
+}
