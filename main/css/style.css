@@ -67,7 +67,7 @@ h2 {
     margin-bottom: 45px;
 }
 
-#sec-2 p {
+p {
     color: rgba(40, 40, 40, 0.66);
     line-height: 26px;
 }
@@ -97,7 +97,49 @@ h2 {
 }
 
 #sec-3 {
+    position: relative;
+    z-index: 2;
     text-align: center;
     padding-top: 138px;
     padding-bottom: 184px;
+    background-color: #f6f5f3;
+}
+
+#sec-3>.row>img {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+}
+
+#sec-3>.row>img:nth-child(1) {
+    top: 0;
+    left: 82px;
+}
+
+#sec-3>.row>img:nth-child(2) {
+    top: 0;
+    right: 140px;
+}
+
+#sec-3>.row>img:nth-child(3) {
+    bottom: 0;
+    right: 62px;
+}
+
+#sec-3 .column {
+    position: relative;
+    z-index: 3;
+}
+
+#sec-3 .columns h6 {
+    font-weight: 500;
+    font-size: 22px;
+    color: #282828;
+    margin-top: 30px;
+}
+
+#sec-3 .columns p {
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
 }
