@@ -240,9 +240,11 @@ p {
 
 #sec-7>.row {
     text-align: center;
+    color: rgba(246, 245, 243, 0.6);
 }
 
 #sec-7 h2 {
+    font-size: 40px;
     color: #ffffff;
 }
 
@@ -293,4 +295,95 @@ p {
 #free_trial img {
     float: left;
     margin-right: -20px;
+}
+
+#footer {
+    padding: 0 20px;
+    padding-top: 82px;
+    padding-bottom: 70px;
+}
+
+#footer h4 {
+    font-size: 24px;
+    padding: 7px 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    text-align: left;
+}
+
+#footer h4>span {
+    color: #ffffff;
+}
+
+#footer .large-3:first-child>div {
+    background: url(../images/Polygon-1.png) no-repeat 53px;
+}
+
+#footer>.row>.columns {
+    margin-bottom: 30px;
+}
+
+#footer .large-3:first-child p {
+    font-size: 13.8px;
+}
+
+#footer p {
+    font-size: 14px;
+    color: rgba(40, 40, 40, 0.56);
+}
+
+#footer a {
+    display: block;
+    margin: 5px 0;
+    color: rgba(40, 40, 40, 0.66);
+    transition: 200ms;
+    font-size: 14px;
+}
+
+#footer a:hover {
+    color: #000;
+}
+
+#footer .large-3 {
+    float: left;
+}
+
+#footer .large-3:last-child {
+    text-align: center;
+}
+
+#footer .large-3:last-child a {
+    display: inline;
+    font-size: 1.3em;
+    margin: 0 15px;
+    color: #c9c9c9;
+}
+
+#footer .large-3:last-child a:hover {
+    color: #000;
+}
+
+#footer .large-3:last-child .columns {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+#footer .large-3:last-child input {
+    margin: 0;
+    padding-left: 30px;
+    color: #000;
+    box-sizing: border-box;
+    background-color: #eee;
+    height: 50px;
+    border-radius: 3px;
+}
+
+#footer .large-3:last-child button {
+    width: 50px;
+    height: 50px;
+    background-color: #ff6d6d;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: -3px;
 }
