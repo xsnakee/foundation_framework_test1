@@ -3,6 +3,7 @@ body {
     font-family: Exo, sans-serif;
     font-size: 16px;
     margin: 0;
+    overflow-x: hidden;
 }
 
 #header {
