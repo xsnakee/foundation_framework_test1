@@ -10,8 +10,7 @@ body {
     text-align: center;
     background: url(../images/mountains_bg.jpg);
     background-size: cover;
-    padding-top: 225px;
-    padding-bottom: 229px;
+    padding: 225px 0;
 }
 
 h1 {
@@ -408,9 +407,17 @@ p {
     margin-left: -3px;
 }
 
+section {
+    position: relative;
+}
+
 a.slide1,
 a.slide2 {
+    width: 130px;
     display: block;
+    position: absolute;
+    bottom: -10px;
+    left: calc(50% - 65px);
     padding: 10px;
     border: 1px solid #000;
     background-color: rgba(0, 0, 0, 0.36);
@@ -419,4 +426,8 @@ a.slide2 {
 a.slide1:hover,
 a.slide2:hover {
     background-color: rgba(0, 0, 0, 0.15);
+}
+
+a.slide2 {
+    visibility: hidden;
 }
