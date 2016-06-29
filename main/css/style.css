@@ -407,3 +407,16 @@ p {
     border-radius: 3px;
     margin-left: -3px;
 }
+
+a.slide1,
+a.slide2 {
+    display: block;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.36);
+}
+
+a.slide1:hover,
+a.slide2:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
