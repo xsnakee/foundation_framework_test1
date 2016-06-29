@@ -13,3 +13,30 @@ $(".slide2").click(function () {
     });
     $("#header").css('padding', '225px 0')
 });
+
+$(".anim_picture").mouseenter(function () {
+    $(this).animate({
+        top: -20
+    }, 300);
+    $(this).animate({
+        top: 0
+    }, 300);
+    $(this).animate({
+        top: -20
+    }, 300);
+    $(this).animate({
+        top: 0
+    }, 300);
+    $(this).animate({
+        top: -20
+    }, 300);
+    $(this).animate({
+        top: 0
+    }, 300);
+    $(this).animate({
+        top: -20
+    }, 300);
+    $(this).animate({
+        top: 0
+    }, 300);
+});

@@ -407,6 +407,10 @@ p {
     margin-left: -3px;
 }
 
+h5 {
+    position: relative;
+}
+
 section {
     position: relative;
 }
@@ -430,4 +434,9 @@ a.slide2:hover {
 
 a.slide2 {
     visibility: hidden;
+}
+
+.anim_picture {
+    position: relative;
+    z-index: 10;
 }
